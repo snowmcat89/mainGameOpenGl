@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.22)
+
+project(
+    game
+    LANGUAGES C CXX
+    VERSION "0.0.1"
+    DESCRIPTION "a sweet game"
+)
+
+add_subdirectory(src)

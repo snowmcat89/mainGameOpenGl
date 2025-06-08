@@ -1,0 +1,5 @@
+C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/edit_cache.dir
+C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/CMakeFiles/game.dir
+C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/CMakeFiles/edit_cache.dir
+C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/CMakeFiles/rebuild_cache.dir
