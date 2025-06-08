@@ -1,5 +1,4 @@
 #pragma once
-#define NOMINMAX
 #include <Windows.h>
 #include <cstdint>
 #include "auto_release.h"
@@ -20,5 +19,6 @@ namespace game{
 
         private:
         game::AutoRelease<HWND,nullptr> window_;
+        ::WNDCLASSA wc_;
     };
 }

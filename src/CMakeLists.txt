@@ -1,4 +1,4 @@
-add_executable(game main.cpp)
+add_executable(game main.cpp window.cpp)
 
 
 target_compile_features(game PUBLIC cxx_std_23)
