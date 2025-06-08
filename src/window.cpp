@@ -43,4 +43,13 @@ namespace game{
             ::UpdateWindow(window_);
 
     }
+
+    auto Window::running() const -> bool{
+
+        auto message = ::MSG();
+        while(::PeekMessageA(&message,nullptr,0,0,PM_REMOVE)){
+            ::TranslateMessage(&message);
+            ::DispatchMessageA(&message);
+        }
+    }
 }

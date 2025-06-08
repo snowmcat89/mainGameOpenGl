@@ -17,6 +17,9 @@ namespace game{
             auto operator=(Window&&) -> Window& = default;
 
 
+            auto running() const -> bool;
+
+
         private:
         game::AutoRelease<HWND,nullptr> window_;
         ::WNDCLASSA wc_;
