@@ -7,10 +7,11 @@ namespace game{
     {
 
         wc_ = {};
+            wc_.style = CS_HREDRAW | CS_VREDRAW  | CS_OWNDC;
             wc_.lpfnWndProc = ::DefDlgProcA;
             wc_.hInstance = GetModuleHandle(nullptr);
             wc_.lpszClassName = "window class";
-            wc_.style = CS_HREDRAW | CS_VREDRAW   | CS_OWNDC;
+            
         
 
         if(::RegisterClassA(&wc_) == 0){
