@@ -9,5 +9,12 @@ int main(){
     game::AutoRelease<int> autorel4 = game::AutoRelease<int>(16,nullptr);
     autorel4 = game::AutoRelease<int>(17,nullptr);
 
+
+    game::Window win(800u,600u);
+
+    for(;;){
+        
+    }
+
     return 0;
 }

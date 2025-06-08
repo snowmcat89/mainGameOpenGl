@@ -6,12 +6,11 @@
 namespace game{
     template< class T, T Invalid = T{}>
     class AutoRelease{ // custom RAII for handling all stuff
-       
-
         public:
-         AutoRelease():
+        AutoRelease():
             AutoRelease({}, nullptr){}
-            
+
+
          AutoRelease(T obj, std::function<void(T)> deleter):
             obj_(obj), deleter_(deleter) {}
 
