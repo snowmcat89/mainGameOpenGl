@@ -7,6 +7,9 @@
     <ClCompile Include="C:\Users\Quibix\Desktop\Nethan baggs\mainGame\src\window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Quibix\Desktop\Nethan baggs\mainGame\src\exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Quibix\Desktop\Nethan baggs\mainGame\src\CMakeLists.txt" />

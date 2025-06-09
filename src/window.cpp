@@ -1,5 +1,28 @@
 #include "window.h"
 
+namespace{
+
+    bool g_running = true; 
+
+    auto __stdcall def_win_proc(
+     HWND   hWnd,
+     UINT   Msg,
+    WPARAM wParam,
+ LPARAM lParam
+)-> LRESULT {
+
+    switch(Msg){
+        case WM_CLOSE :{ g_running = false; break;}
+        case WM_KEYDOWN: /* here when you press a key on keyboard, windows detect the key press
+        at OS/HARDWARE level, then place a WM_KEYDOWN as a notification message
+        queue , then the function just handle it so you can do whatever u want on that case*/
+            std::println("key down!");
+    }
+
+    return ::DefWindowProc(hWnd,Msg,wParam,lParam);
+}
+}
+
 namespace game{
     Window::Window(std::int32_t width, std::int32_t height): 
     window_({}),
@@ -7,7 +30,7 @@ namespace game{
     {
 
         wc_ = {};
-            wc_.lpfnWndProc = ::DefWindowProcA;
+            wc_.lpfnWndProc = def_win_proc;
             wc_.hInstance = GetModuleHandle(nullptr);
             wc_.lpszClassName = "window class";
             wc_.style = CS_HREDRAW | CS_VREDRAW   | CS_OWNDC;
@@ -41,15 +64,17 @@ namespace game{
 
             ::ShowWindow(window_, SW_SHOW);
             ::UpdateWindow(window_);
+        
+            
 
     }
 
-    auto Window::running() const -> bool{
-
-        auto message = ::MSG();
-        while(::PeekMessageA(&message,nullptr,0,0,PM_REMOVE)){
-            ::TranslateMessage(&message);
-            ::DispatchMessageA(&message);
+    auto Window::Window::running() const -> bool{
+        auto msg = ::MSG();
+        while(::PeekMessageA(&msg,nullptr,0,0,PM_REMOVE) != 0){
+            ::TranslateMessage(&msg);
+            ::DispatchMessageA(&msg);
         }
+        return g_running;
     }
 }
