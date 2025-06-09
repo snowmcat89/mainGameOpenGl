@@ -29,7 +29,7 @@ int main(){
     try{
         foo();
     }catch (const game::Exception& e){
-        std::println(std::cerr,"{}\n{}",e.what(),e.stack_trace());
+        std::println(std::cerr,"{}",e);
     }
 
     return 0;

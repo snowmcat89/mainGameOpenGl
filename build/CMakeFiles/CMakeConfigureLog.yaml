@@ -24,9 +24,9 @@ events:
       The output was:
       0
       MSBuild version 17.10.4+10fbfbf2e for .NET Framework
-      Build started 6/8/2025 2:43:33 PM.
+      Build started 6/9/2025 5:09:04 PM.
       
-      Project "C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -39,7 +39,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -47,13 +47,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:02.20
+      Time Elapsed 00:00:03.37
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -61,7 +61,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/4.0.2/CompilerIdC/CompilerIdC.exe
+        C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/4.0.2/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -79,9 +79,9 @@ events:
       The output was:
       0
       MSBuild version 17.10.4+10fbfbf2e for .NET Framework
-      Build started 6/8/2025 2:43:36 PM.
+      Build started 6/9/2025 5:09:08 PM.
       
-      Project "C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -94,7 +94,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -102,13 +102,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:02.38
+      Time Elapsed 00:00:03.05
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -116,7 +116,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/4.0.2/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/4.0.2/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/CMakeScratch/TryCompile-8z9x9t"
-      binary: "C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/CMakeScratch/TryCompile-8z9x9t"
+      source: "C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/CMakeScratch/TryCompile-qt0aco"
+      binary: "C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/CMakeScratch/TryCompile-qt0aco"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/CMakeScratch/TryCompile-8z9x9t'
+        Change Dir: 'C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/CMakeScratch/TryCompile-qt0aco'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_84d0f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a0ef5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.10.4+10fbfbf2e for .NET Framework
-        Build started 6/8/2025 2:43:40 PM.
+        Build started 6/9/2025 5:09:13 PM.
         
-        Project "C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8z9x9t\\cmTC_84d0f.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qt0aco\\cmTC_a0ef5.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_84d0f.dir\\Debug\\".
+          Creating directory "cmTC_a0ef5.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8z9x9t\\Debug\\".
-          Creating directory "cmTC_84d0f.dir\\Debug\\cmTC_84d0f.tlog\\".
+          Creating directory "C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qt0aco\\Debug\\".
+          Creating directory "cmTC_a0ef5.dir\\Debug\\cmTC_a0ef5.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_84d0f.dir\\Debug\\cmTC_84d0f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_84d0f.dir\\Debug\\cmTC_84d0f.tlog\\unsuccessfulbuild".
+          Creating "cmTC_a0ef5.dir\\Debug\\cmTC_a0ef5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a0ef5.dir\\Debug\\cmTC_a0ef5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84d0f.dir\\Debug\\\\" /Fd"cmTC_84d0f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0ef5.dir\\Debug\\\\" /Fd"cmTC_a0ef5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33813 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84d0f.dir\\Debug\\\\" /Fd"cmTC_84d0f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0ef5.dir\\Debug\\\\" /Fd"cmTC_a0ef5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8z9x9t\\Debug\\cmTC_84d0f.exe" /INCREMENTAL /ILK:"cmTC_84d0f.dir\\Debug\\cmTC_84d0f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/CMakeScratch/TryCompile-8z9x9t/Debug/cmTC_84d0f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/CMakeScratch/TryCompile-8z9x9t/Debug/cmTC_84d0f.lib" /MACHINE:X64  /machine:x64 cmTC_84d0f.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_84d0f.vcxproj -> C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8z9x9t\\Debug\\cmTC_84d0f.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qt0aco\\Debug\\cmTC_a0ef5.exe" /INCREMENTAL /ILK:"cmTC_a0ef5.dir\\Debug\\cmTC_a0ef5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/CMakeScratch/TryCompile-qt0aco/Debug/cmTC_a0ef5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/CMakeScratch/TryCompile-qt0aco/Debug/cmTC_a0ef5.lib" /MACHINE:X64  /machine:x64 cmTC_a0ef5.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a0ef5.vcxproj -> C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qt0aco\\Debug\\cmTC_a0ef5.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_84d0f.dir\\Debug\\cmTC_84d0f.tlog\\unsuccessfulbuild".
-          Touching "cmTC_84d0f.dir\\Debug\\cmTC_84d0f.tlog\\cmTC_84d0f.lastbuildstate".
-        Done Building Project "C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8z9x9t\\cmTC_84d0f.vcxproj" (default targets).
+          Deleting file "cmTC_a0ef5.dir\\Debug\\cmTC_a0ef5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a0ef5.dir\\Debug\\cmTC_a0ef5.tlog\\cmTC_a0ef5.lastbuildstate".
+        Done Building Project "C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qt0aco\\cmTC_a0ef5.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:02.04
+        Time Elapsed 00:00:02.51
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/CMakeScratch/TryCompile-b3d15n"
-      binary: "C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/CMakeScratch/TryCompile-b3d15n"
+      source: "C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/CMakeScratch/TryCompile-uzvdiy"
+      binary: "C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/CMakeScratch/TryCompile-uzvdiy"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -221,40 +221,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/CMakeScratch/TryCompile-b3d15n'
+        Change Dir: 'C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/CMakeScratch/TryCompile-uzvdiy'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b3962.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_02698.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.10.4+10fbfbf2e for .NET Framework
-        Build started 6/8/2025 2:43:43 PM.
+        Build started 6/9/2025 5:09:17 PM.
         
-        Project "C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b3d15n\\cmTC_b3962.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzvdiy\\cmTC_02698.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_b3962.dir\\Debug\\".
+          Creating directory "cmTC_02698.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b3d15n\\Debug\\".
-          Creating directory "cmTC_b3962.dir\\Debug\\cmTC_b3962.tlog\\".
+          Creating directory "C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzvdiy\\Debug\\".
+          Creating directory "cmTC_02698.dir\\Debug\\cmTC_02698.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b3962.dir\\Debug\\cmTC_b3962.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_b3962.dir\\Debug\\cmTC_b3962.tlog\\unsuccessfulbuild".
+          Creating "cmTC_02698.dir\\Debug\\cmTC_02698.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_02698.dir\\Debug\\cmTC_02698.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3962.dir\\Debug\\\\" /Fd"cmTC_b3962.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02698.dir\\Debug\\\\" /Fd"cmTC_02698.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33813 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3962.dir\\Debug\\\\" /Fd"cmTC_b3962.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02698.dir\\Debug\\\\" /Fd"cmTC_02698.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b3d15n\\Debug\\cmTC_b3962.exe" /INCREMENTAL /ILK:"cmTC_b3962.dir\\Debug\\cmTC_b3962.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/CMakeScratch/TryCompile-b3d15n/Debug/cmTC_b3962.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/CMakeFiles/CMakeScratch/TryCompile-b3d15n/Debug/cmTC_b3962.lib" /MACHINE:X64  /machine:x64 cmTC_b3962.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_b3962.vcxproj -> C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b3d15n\\Debug\\cmTC_b3962.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzvdiy\\Debug\\cmTC_02698.exe" /INCREMENTAL /ILK:"cmTC_02698.dir\\Debug\\cmTC_02698.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/CMakeScratch/TryCompile-uzvdiy/Debug/cmTC_02698.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/CMakeScratch/TryCompile-uzvdiy/Debug/cmTC_02698.lib" /MACHINE:X64  /machine:x64 cmTC_02698.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_02698.vcxproj -> C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzvdiy\\Debug\\cmTC_02698.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_b3962.dir\\Debug\\cmTC_b3962.tlog\\unsuccessfulbuild".
-          Touching "cmTC_b3962.dir\\Debug\\cmTC_b3962.tlog\\cmTC_b3962.lastbuildstate".
-        Done Building Project "C:\\Users\\Quibix\\Desktop\\Nethan baggs\\mainGame\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b3d15n\\cmTC_b3962.vcxproj" (default targets).
+          Deleting file "cmTC_02698.dir\\Debug\\cmTC_02698.tlog\\unsuccessfulbuild".
+          Touching "cmTC_02698.dir\\Debug\\cmTC_02698.tlog\\cmTC_02698.lastbuildstate".
+        Done Building Project "C:\\Users\\Quibix\\Desktop\\mainGameOpenGl\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzvdiy\\cmTC_02698.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:02.06
+        Time Elapsed 00:00:02.11
         
       exitCode: 0
   -

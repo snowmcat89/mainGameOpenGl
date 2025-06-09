@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2E6AE277-8DC5-3762-8D8F-EDC585CA0829}</ProjectGuid>
+    <ProjectGuid>{990DDF53-63F0-3C34-84E8-2D3796788C1B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Quibix\Desktop\Nethan baggs\mainGame\build\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Quibix\Desktop\mainGameOpenGl\build\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">game.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">game</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Quibix\Desktop\Nethan baggs\mainGame\build\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Quibix\Desktop\mainGameOpenGl\build\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">game.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">game</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Quibix\Desktop\Nethan baggs\mainGame\build\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Quibix\Desktop\mainGameOpenGl\build\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">game.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">game</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Quibix\Desktop\Nethan baggs\mainGame\build\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Quibix\Desktop\mainGameOpenGl\build\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">game.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">game</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -121,8 +121,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/Debug/game.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/Debug/game.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/Debug/game.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/Debug/game.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -167,8 +167,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/Release/game.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/Release/game.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/Release/game.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/Release/game.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -213,8 +213,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/MinSizeRel/game.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/MinSizeRel/game.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/MinSizeRel/game.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/MinSizeRel/game.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -258,8 +258,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/RelWithDebInfo/game.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/RelWithDebInfo/game.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/RelWithDebInfo/game.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/RelWithDebInfo/game.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -267,11 +267,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Quibix\Desktop\Nethan baggs\mainGame\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Quibix\Desktop\mainGameOpenGl\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Quibix/Desktop/Nethan baggs/mainGame/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Quibix/Desktop/mainGameOpenGl/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Quibix/Desktop/Nethan baggs/mainGame" "-BC:/Users/Quibix/Desktop/Nethan baggs/mainGame/build" --check-stamp-file "C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Quibix/Desktop/mainGameOpenGl -BC:/Users/Quibix/Desktop/mainGameOpenGl/build --check-stamp-file C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -280,11 +280,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Quibix\Desktop\Nethan baggs\mainGame\build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Quibix\Desktop\mainGameOpenGl\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Quibix/Desktop/Nethan baggs/mainGame/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Quibix/Desktop/mainGameOpenGl/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Quibix/Desktop/Nethan baggs/mainGame" "-BC:/Users/Quibix/Desktop/Nethan baggs/mainGame/build" --check-stamp-file "C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Quibix/Desktop/mainGameOpenGl -BC:/Users/Quibix/Desktop/mainGameOpenGl/build --check-stamp-file C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -293,11 +293,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Quibix\Desktop\Nethan baggs\mainGame\build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Quibix\Desktop\mainGameOpenGl\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Quibix/Desktop/Nethan baggs/mainGame/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Quibix/Desktop/mainGameOpenGl/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Quibix/Desktop/Nethan baggs/mainGame" "-BC:/Users/Quibix/Desktop/Nethan baggs/mainGame/build" --check-stamp-file "C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Quibix/Desktop/mainGameOpenGl -BC:/Users/Quibix/Desktop/mainGameOpenGl/build --check-stamp-file C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -306,11 +306,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Quibix\Desktop\Nethan baggs\mainGame\build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Quibix\Desktop\mainGameOpenGl\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Quibix/Desktop/Nethan baggs/mainGame/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Quibix/Desktop/mainGameOpenGl/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Quibix/Desktop/Nethan baggs/mainGame" "-BC:/Users/Quibix/Desktop/Nethan baggs/mainGame/build" --check-stamp-file "C:/Users/Quibix/Desktop/Nethan baggs/mainGame/build/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Quibix/Desktop/mainGameOpenGl -BC:/Users/Quibix/Desktop/mainGameOpenGl/build --check-stamp-file C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -319,19 +319,19 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Quibix\Desktop\Nethan baggs\mainGame\build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Quibix\Desktop\mainGameOpenGl\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Quibix\Desktop\Nethan baggs\mainGame\src\main.cpp" />
-    <ClCompile Include="C:\Users\Quibix\Desktop\Nethan baggs\mainGame\src\window.cpp" />
-    <ClCompile Include="C:\Users\Quibix\Desktop\Nethan baggs\mainGame\src\exception.cpp" />
+    <ClCompile Include="C:\Users\Quibix\Desktop\mainGameOpenGl\src\main.cpp" />
+    <ClCompile Include="C:\Users\Quibix\Desktop\mainGameOpenGl\src\window.cpp" />
+    <ClCompile Include="C:\Users\Quibix\Desktop\mainGameOpenGl\src\exception.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Quibix\Desktop\Nethan baggs\mainGame\build\ZERO_CHECK.vcxproj">
-      <Project>{377C8BB2-5E11-3844-9384-C7FB9A002A95}</Project>
+    <ProjectReference Include="C:\Users\Quibix\Desktop\mainGameOpenGl\build\ZERO_CHECK.vcxproj">
+      <Project>{443F0CFF-569A-3C00-8B56-16F04B52BB4F}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

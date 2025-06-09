@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Quibix\Desktop\Nethan baggs\mainGame\src\main.cpp">
+    <ClCompile Include="C:\Users\Quibix\Desktop\mainGameOpenGl\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Quibix\Desktop\Nethan baggs\mainGame\src\window.cpp">
+    <ClCompile Include="C:\Users\Quibix\Desktop\mainGameOpenGl\src\window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Quibix\Desktop\Nethan baggs\mainGame\src\exception.cpp">
+    <ClCompile Include="C:\Users\Quibix\Desktop\mainGameOpenGl\src\exception.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Quibix\Desktop\Nethan baggs\mainGame\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Quibix\Desktop\mainGameOpenGl\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5AA55146-8729-308A-9F32-B70E240A3AE9}</UniqueIdentifier>
+      <UniqueIdentifier>{5EDBCB03-13EC-3995-B68B-54D5798640B1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

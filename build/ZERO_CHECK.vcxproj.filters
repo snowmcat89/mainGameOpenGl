@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Quibix\Desktop\Nethan baggs\mainGame\build\CMakeFiles\6d139a8e50c16d54722e8407f2cfec70\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\Quibix\Desktop\mainGameOpenGl\build\CMakeFiles\6d568ca69b14da976ad3c9a66637bfcf\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{86C06379-D804-3374-8409-AAE7B4BCE6D2}</UniqueIdentifier>
+      <UniqueIdentifier>{43B536E0-D25C-33ED-8C1E-428E1235D680}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
