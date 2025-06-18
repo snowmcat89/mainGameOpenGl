@@ -1,0 +1,5 @@
+# ninja log v6
+71	2861	7719766017183570	src/CMakeFiles/game.dir/exception.cpp.obj	a8067d8920eef98a
+42	3904	7719766016871058	src/CMakeFiles/game.dir/main.cpp.obj	d3556ece7986aff6
+56	3906	7719766017027336	src/CMakeFiles/game.dir/window.cpp.obj	9d04726d7b3cc847
+3907	4331	7719766055472789	src/game.exe	5d188915ce7dd1c9

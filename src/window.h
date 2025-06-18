@@ -2,6 +2,7 @@
 #include <Windows.h>
 #include <cstdint>
 #include "auto_release.h"
+#include "error.h"
 
 namespace game{
     class Window{

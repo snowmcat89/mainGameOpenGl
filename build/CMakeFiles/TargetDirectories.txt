@@ -1,3 +1,5 @@
-C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/edit_cache.dir
+C:/Users/Quibix/Desktop/mainGameOpenGl/build/CMakeFiles/rebuild_cache.dir
 C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/CMakeFiles/game.dir
+C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/CMakeFiles/edit_cache.dir
+C:/Users/Quibix/Desktop/mainGameOpenGl/build/src/CMakeFiles/rebuild_cache.dir

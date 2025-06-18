@@ -1,7 +1,10 @@
 #pragma once
 #include "exception.h"
+#include <format>
 namespace game {
-    inline auto ensure(bool predicate) -> void {
-
+    template<class... Args>
+    inline auto ensure(bool predicate, std::string_view msg, Args&&... args) -> void {
+        if (!predicate)
+            throw Exception(std::vformat(msg,std::make_format_args(std::forward(args)...)));
     }
 }

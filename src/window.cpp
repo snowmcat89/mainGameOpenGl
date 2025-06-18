@@ -35,10 +35,7 @@ namespace game{
             wc_.lpszClassName = "window class";
             wc_.style = CS_HREDRAW | CS_VREDRAW   | CS_OWNDC;
         
-
-        if(::RegisterClassA(&wc_) == 0){
-            throw std::runtime_error("failed to register class");
-        }
+        ensure(::RegisterClassA(&wc_) != 0, "error for some reason");
 
         ::RECT rect{};
             rect.left = {};
