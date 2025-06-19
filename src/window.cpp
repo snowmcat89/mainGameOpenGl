@@ -35,17 +35,14 @@ namespace game{
             wc_.lpszClassName = "window class";
             wc_.style = CS_HREDRAW | CS_VREDRAW   | CS_OWNDC;
         
-        ensure(::RegisterClassA(&wc_) != 0, "error for some reason");
+        ensure(::RegisterClassA(&wc_) == 0, "backtrace_ error here! :");
 
         ::RECT rect{};
             rect.left = {};
             rect.right = static_cast<int>(width);
             rect.top = {}; rect.bottom = static_cast<int>(height);
 
-         if(::AdjustWindowRect(&rect,WS_OVERLAPPEDWINDOW,false) == 0){
-            throw std::runtime_error("could not resize window");
-         }
-        
+         ensure(::AdjustWindowRect(&rect,WS_OVERLAPPEDWINDOW,false) != 0,"could not resize window");
 
         window_ = {
             ::CreateWindowExA(

@@ -8,7 +8,7 @@ namespace game{
     class AutoRelease{ // custom RAII for handling all stuff
         public:
         AutoRelease():
-            AutoRelease({}, nullptr){}
+            AutoRelease(Invalid, nullptr){}
 
 
          AutoRelease(T obj, std::function<void(T)> deleter):

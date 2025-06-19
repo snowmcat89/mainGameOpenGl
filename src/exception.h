@@ -4,11 +4,11 @@
 #include <string>
 #include <iostream>
 #include <format>
-
+#include <cstdint>
 namespace game{
     class Exception : public std::runtime_error{
         public:
-            Exception(const std::string &what);
+            Exception(const std::string &what,std::uint32_t skip = 1u);
             auto stack_trace() const -> std::string;
 
         private:
