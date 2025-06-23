@@ -6,7 +6,7 @@ namespace{
 
     auto __stdcall def_win_proc(
      HWND   hWnd,
-     UINT   Msg,
+     UINT   Msg,            
     WPARAM wParam,
  LPARAM lParam
 )-> LRESULT {
@@ -21,6 +21,34 @@ namespace{
 
     return ::DefWindowProc(hWnd,Msg,wParam,lParam);
 }
+
+auto resolve_wgl_functions(HINSTANCE hIncstance) -> void {
+    auto wc = ::WNDCLASSA();
+        wc.lpfnWndProc = ::DefWindowProc;
+        wc.lpszMenuName = "dummy window";
+        wc.style = CS_HREDRAW | CS_VREDRAW | CS_OWNDC;
+        wc.hInstance = hIncstance;
+    
+    game::ensure(::RegisterClassA(&wc) == 0,"could not register dummy window");
+
+    auto dummy_window = game::AutoRelease<::HWND,nullptr>{
+        CreateWindowExA(
+            0,
+            wc.lpszClassName,
+            wc.lpszClassName,
+            0,
+            CW_USEDEFAULT,
+            CW_USEDEFAULT,
+            CW_USEDEFAULT,
+            CW_USEDEFAULT, 
+            0,0,wc.hInstance,0),::DestroyWindow};
+            
+
+    auto dc = game::AutoRelease<::HDC>(::GetDC(dummy_window), [&dummy_window](auto dc){ ::ReleaseDC(dummy_window,dc);});
+
+    
+    }
+
 }
 
 namespace game{
