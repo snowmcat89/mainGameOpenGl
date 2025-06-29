@@ -3,6 +3,7 @@
 #include <functional>
 #include <ranges>
 
+
 namespace game{
     template< class T, T Invalid = T{}>
     class AutoRelease{ // custom RAII for handling all stuff
@@ -19,7 +20,7 @@ namespace game{
                 deleter_(obj_);
             }
         }
-        
+
         auto operator=(AutoRelease&& other) -> AutoRelease& {
             AutoRelease new_obj(std::move(other));
             swap(new_obj);

@@ -1,0 +1,15 @@
+CreateWindowEx → HWND
+        ↓
+   GetDC(HWND) → HDC
+        ↓
+ Define PIXELFORMATDESCRIPTOR
+        ↓
+ChoosePixelFormat + SetPixelFormat
+        ↓
+   wglCreateContext(HDC) → HGLRC
+        ↓
+  wglMakeCurrent(HDC, HGLRC)
+        ↓
+     Use OpenGL as normal
+        ↓
+        SwapBuffers(HDC)

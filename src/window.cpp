@@ -1,5 +1,5 @@
 #include "window.h"
-
+#pragma comment(lib,"opengl32.lib")
 namespace{
 
     bool g_running = true; 
@@ -31,7 +31,7 @@ auto resolve_wgl_functions(HINSTANCE hIncstance) -> void {
     
     game::ensure(::RegisterClassA(&wc) == 0,"could not register dummy window");
 
-    auto dummy_window = game::AutoRelease<::HWND,nullptr>{
+    game::AutoRelease<HWND,nullptr> dummy_window = game::AutoRelease<::HWND,nullptr>{
         CreateWindowExA(
             0,
             wc.lpszClassName,
@@ -42,13 +42,38 @@ auto resolve_wgl_functions(HINSTANCE hIncstance) -> void {
             CW_USEDEFAULT,
             CW_USEDEFAULT, 
             0,0,wc.hInstance,0),::DestroyWindow};
-            
+    
+    game::ensure(dummy_window,"couldn't create dummy window");
 
     auto dc = game::AutoRelease<::HDC>(::GetDC(dummy_window), [&dummy_window](auto dc){ ::ReleaseDC(dummy_window,dc);});
+    game::ensure(dc,"couldn't create dc ");
 
+    auto pfd = ::PIXELFORMATDESCRIPTOR();
+
+    pfd.nSize = sizeof(::PIXELFORMATDESCRIPTOR);
+    pfd.nSize = 1;
+    pfd.iPixelType = PFD_TYPE_RGBA;
+    pfd.dwFlags = PFD_DRAW_TO_WINDOW | PFD_SUPPORT_OPENGL | PFD_DOUBLEBUFFER;
+    pfd.cColorBits = 32;
+    pfd.cAlphaBits = 8;
+    pfd.iLayerType = PFD_MAIN_PLANE;
+    pfd.cDepthBits = 24;
+    pfd.cStencilBits = 8;
+
+
+    auto pixel_format = ::ChoosePixelFormat(dc,&pfd);
+    game::ensure(pixel_format != 0,"failed to choose pixel format");
+
+    game::ensure(::SetPixelFormat(dc,pixel_format,&pfd),"couldn't set pixel format!");
+
+    const auto context = game::AutoRelease<HGLRC>(::wglCreateContext(dc),::wglDeleteContext);
+    game::ensure(context,"failed to create wglContext!");
+
+    game::ensure(::wglMakeCurrent(dc,context),"error couldn't add current context");
     
     }
 
+    
 }
 
 namespace game{
@@ -63,7 +88,7 @@ namespace game{
             wc_.lpszClassName = "window class";
             wc_.style = CS_HREDRAW | CS_VREDRAW   | CS_OWNDC;
         
-        ensure(::RegisterClassA(&wc_) == 0, "backtrace_ error here! :");
+        ensure(::RegisterClassA(&wc_) != 0, "backtrace_ error here! :");
 
         ::RECT rect{};
             rect.left = {};

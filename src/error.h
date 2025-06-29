@@ -9,8 +9,8 @@ namespace game {
     }
 
 
-    template<typename T, typename... Args>
-    auto ensure(AutoRelease<T> obj, std::string_view msg, Args&&... args) -> void{
+    template<typename T,T invalid = T{}, typename... Args>
+    auto ensure(AutoRelease<T,invalid>& obj, std::string_view msg, Args&&... args) -> void{
         ensure(!!obj, msg, std::forward<Args>(args)...);
         
     }
